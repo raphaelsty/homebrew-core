@@ -13,13 +13,13 @@ class Backupninja < Formula
   no_autobump! because: :requires_manual_review
 
   bottle do
-    rebuild 1
-    sha256 cellar: :any_skip_relocation, arm64_tahoe:   "d9df3e07340b1c7c046d9d83009c271cb27105940e6be345a50013abcd04357b"
-    sha256 cellar: :any_skip_relocation, arm64_sequoia: "d9df3e07340b1c7c046d9d83009c271cb27105940e6be345a50013abcd04357b"
-    sha256 cellar: :any_skip_relocation, arm64_sonoma:  "d9df3e07340b1c7c046d9d83009c271cb27105940e6be345a50013abcd04357b"
-    sha256 cellar: :any_skip_relocation, sonoma:        "cbf31b7459787f092bd97a26c0a34998dd62552a9ffd074bae6e6701c1bc040e"
-    sha256 cellar: :any_skip_relocation, arm64_linux:   "c1b2ff8288fc767429a63559e1c4a59bee787610a32ed320cd34d57492885f65"
-    sha256 cellar: :any_skip_relocation, x86_64_linux:  "c1b2ff8288fc767429a63559e1c4a59bee787610a32ed320cd34d57492885f65"
+    rebuild 2
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:   "c4c827a9411ff2c3dc6d7863d3d017d8a1a454aa4e86962ddb466cddccda773d"
+    sha256 cellar: :any_skip_relocation, arm64_sequoia: "c4c827a9411ff2c3dc6d7863d3d017d8a1a454aa4e86962ddb466cddccda773d"
+    sha256 cellar: :any_skip_relocation, arm64_sonoma:  "c4c827a9411ff2c3dc6d7863d3d017d8a1a454aa4e86962ddb466cddccda773d"
+    sha256 cellar: :any_skip_relocation, sonoma:        "e3da135ac62d1c231f98fecf22e9ebfe6b77cfb562568385560b4ee68d0cb060"
+    sha256 cellar: :any_skip_relocation, arm64_linux:   "cdd11eabe08b52051efa9d4f5f0b32d85c08fb9a473ca54c021881144d0f212f"
+    sha256 cellar: :any_skip_relocation, x86_64_linux:  "cdd11eabe08b52051efa9d4f5f0b32d85c08fb9a473ca54c021881144d0f212f"
   end
 
   depends_on "dialog"
